@@ -16,10 +16,10 @@ print(variance)
 nums = [0.5, 0.7, 1., 1.2, 1.3, 2.1]
 bins = [0, 1, 2, 3]
 
-a = np.histogram(nums, bins)
+output = np.histogram(nums, bins)
 print("nums: " + str(nums))
 print("bins: " + str(bins))
-print(a)
+print(output)
 
 plt.hist(nums, bins)
 plt.xlabel("Nums")
